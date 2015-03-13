@@ -1,0 +1,6 @@
+设置php页面编码的两种方法示例介绍
+1：输出meta标签：
+    1、在php mvc的控制器里面或php页面echo '<meta http-equiv="content-type" content="text/html; charset=utf-8">';
+    2、在php页面或html页面<meta http-equiv="content-type" content="text/html; charset=utf-8">
+2：使用header函数
+    在控制器或页面里面header("content-type:text/html; charset=utf-8");
