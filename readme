@@ -1,0 +1,16 @@
+========================================================
+运行project需要的准备工作：
+
+1.数据使用mysql
+  database name为:myciex
+  数据库编码为：utf8_general_ci
+  建表sql保存在 application/useful_files/sql 文件中
+
+2.application/config/database.php中参数的值设为自己环境中的值
+$db['develop']['hostname'] = 'localhost';
+$db['develop']['username'] = 'myciex';
+$db['develop']['password'] = '123456';
+$db['develop']['database'] = 'myciex';
+$db['develop']['port'] = 3306;
+
+

@@ -43,7 +43,7 @@ $route['404_override'] = '';
 
 $route['user'] = 'user/index';
 $route['user/sign_up'] = 'user/sign_up';
-$route['user/log_in'] = 'user/log_in';  
+$route['user/log_in'] = 'user/log_in';
 $route['user/log_out'] = 'user/log_out';
 $route['user/retrieve'] = 'user/retrieve';
 $route['user/delete/(:any)'] = 'user/delete/$1';
